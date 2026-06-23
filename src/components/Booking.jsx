@@ -8,8 +8,8 @@ export default function Booking() {
     <section className="section booking reveal" id="booking">
       <h2 className="section__title">Book Scott</h2>
       <p className="booking__intro">
-        Booking solo, duo, and trio sets — restaurants, bars, and private events across
-        the Front Range. Drop a note about a gig, a collaboration, or just to say hello.
+        Booking solo sets — restaurants, bars, and private events across the Front Range.
+        Drop a note about a gig, a collaboration, or just to say hello.
       </p>
 
       {state.succeeded ? (
