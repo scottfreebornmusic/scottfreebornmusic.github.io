@@ -196,6 +196,7 @@ main::before {
 .hero__raven {
   position: absolute;
   z-index: 4;
+  left: 0;
   width: 130px;
   top: 6%;
   opacity: 0.95;
@@ -228,6 +229,14 @@ main::before {
 .fore--rocks { left: 15%; width: 150px; }
 .fore--quartz { right: 14%; width: 85px; }
 .fore--grass-r { right: 3%; width: 115px; }
+.fore--rocks,
+.fore--quartz {
+  pointer-events: auto;
+  transform-origin: bottom center;
+  transition: transform 0.4s ease;
+}
+.fore--rocks:hover,
+.fore--quartz:hover { transform: rotate(6deg); }
 @media (max-width: 560px) {
   .fore--rocks,
   .fore--quartz { display: none; }
