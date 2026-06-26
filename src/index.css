@@ -456,7 +456,43 @@ main::before {
   border-radius: 12px;
   color: var(--ink-soft);
 }
-.merch__cta { display: flex; justify-content: center; }
+.merch__cta { display: flex; justify-content: center; margin-top: 0.5rem; }
+.merch__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 1.25rem;
+  max-width: var(--maxw);
+  margin: 0 auto 2rem;
+  text-align: left;
+}
+.merch__card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--ink);
+  background: var(--cream);
+  border: 2px solid var(--ink);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 3px 0 var(--ink);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+.merch__card:hover { transform: translateY(-3px); box-shadow: 0 6px 0 var(--ink); }
+.merch__card img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  display: block;
+  background: var(--cream-deep);
+}
+.merch__info { padding: 0.7rem 0.85rem; display: flex; flex-direction: column; gap: 0.3rem; flex: 1; }
+.merch__name { font-weight: 600; font-size: 0.92rem; line-height: 1.3; }
+.merch__price {
+  margin-top: auto;
+  font-family: var(--font-head);
+  font-weight: 700;
+  color: var(--rust);
+}
 .booking__thanks {
   max-width: 520px;
   margin: 0 auto;

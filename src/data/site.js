@@ -22,8 +22,10 @@ export const site = {
   // Make the form live: create a free form at formspree.io and paste its ID here (the part after /f/).
   formspreeId: 'xkolgypw',
 
-  // Merch store URL (Fourthwall storefront) — opened by the Merch link in the nav.
+  // Merch store URL (Fourthwall storefront).
   merchUrl: 'https://scottfreeborn-shop.fourthwall.com',
+  // Fourthwall storefront token is injected at build time via VITE_FW_STOREFRONT_TOKEN
+  // (set in dev/.env.local for local dev, and as a GitHub Actions secret for deploys).
 
   // YouTube video ids (the part after watch?v=). Add/remove as many as you like.
   // Each must be Public or Unlisted (with embedding allowed) to play here.
