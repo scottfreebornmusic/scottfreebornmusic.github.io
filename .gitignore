@@ -11,3 +11,6 @@ dist-ssr
 
 # Local working notes — keep out of the repo
 HANDOFF.md
+
+# Local utility scripts (contain machine-specific paths)
+scripts/make_tee.py
