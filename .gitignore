@@ -1,6 +1,9 @@
 node_modules
 dist
 dist-ssr
+.vs/
+*.suo
+*.user
 .DS_Store
 *.local
 .vscode/*

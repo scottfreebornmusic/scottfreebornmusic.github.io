@@ -35,8 +35,15 @@ export const site = {
     // { label: 'Bandcamp', url: 'https://...' },
   ],
 
-  // Upcoming shows. Add entries like:
-  //   { date: 'Jul 12', venue: 'Oskar Blues', city: 'Lyons, CO', ticketUrl: 'https://...' }
+  // Upcoming shows — managed in a Google Sheet (no code needed to add/edit/delete).
+  // Setup: Sheet header row uses these names (ANY ORDER, extras ignored, only Date+Venue required):
+  //   Date, Venue, City, Venue URL, Venue Link Text, Tickets
+  // The venue links to Venue URL (showing Venue Link Text if given, else the venue name); Tickets = a button.
+  // Then File -> Share -> Publish to web -> CSV, and paste THAT url here (the gviz/edit url won't work — no CORS):
+  // Then File -> Share -> Publish to web -> (the sheet) -> CSV, and paste that URL here:
+  showsSheetCsvUrl:
+    'https://docs.google.com/spreadsheets/d/e/2PACX-1vQLdbhAsjIdQN34kzXG9IB_aZI6EaFbkDmCABV4HJFOr-Z3R239fQqoBhKzRgmGqZj0o1yF_JRZ6rnW/pub?output=csv',
+  // Fallback list, used only if the sheet URL is blank or fails to load:
   shows: [],
 
   // Social links shown in the footer. Add Instagram / Spotify / Bandcamp here once you have them.

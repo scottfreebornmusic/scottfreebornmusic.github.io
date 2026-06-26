@@ -6,6 +6,7 @@ import Listen from './components/Listen.jsx'
 import Shows from './components/Shows.jsx'
 import About from './components/About.jsx'
 import Booking from './components/Booking.jsx'
+import Merch from './components/Merch.jsx'
 import Footer from './components/Footer.jsx'
 
 export default function App() {
@@ -21,6 +22,8 @@ export default function App() {
         <Listen />
         <Divider />
         <About />
+        <Divider />
+        <Merch />
         <Divider />
         <Booking />
       </main>

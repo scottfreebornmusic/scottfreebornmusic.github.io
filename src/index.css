@@ -443,6 +443,20 @@ main::before {
   color: var(--ink);
 }
 .booking__form .btn { align-self: center; margin-top: 0.25rem; }
+
+/* Merch section */
+.merch { text-align: center; }
+.merch__intro {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto 1.5rem;
+  padding: 0.85rem 1.6rem;
+  background: rgba(245, 230, 200, 0.92);
+  border-radius: 12px;
+  color: var(--ink-soft);
+}
+.merch__cta { display: flex; justify-content: center; }
 .booking__thanks {
   max-width: 520px;
   margin: 0 auto;

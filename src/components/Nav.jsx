@@ -4,7 +4,7 @@ const links = [
   { label: 'Shows', href: '#shows' },
   { label: 'Listen', href: '#listen' },
   { label: 'About', href: '#about' },
-  { label: 'Merch', href: site.merchUrl, external: true },
+  { label: 'Merch', href: '#merch' },
 ]
 
 export default function Nav() {
