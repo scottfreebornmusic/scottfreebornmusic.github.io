@@ -8,3 +8,6 @@ dist-ssr
 *.local
 .vscode/*
 !.vscode/extensions.json
+
+# Local working notes — keep out of the repo
+HANDOFF.md
