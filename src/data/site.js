@@ -6,13 +6,12 @@ export const site = {
   tagline: 'Folk & Americana from the Colorado Front Range',
 
   // 3-4 sentences. Replace with your real bio.
-  bio: `Scott Freeborn is a Lyons, Colorado singer-songwriter with 20-plus years of
+  bio: `Scott Freeborn is a Boulder, Colorado singer-songwriter with 20-plus years of
   playing in bands and on stages behind him. He works in weathered folk and Americana
-  with a bluegrass streak — fitting, since Lyons is bluegrass country — telling stories
-  in the tradition of writers like Todd Snider: wry, heartfelt, and meant to be heard up
-  close. Most of it comes through a late-'70s Mossman Great Plains, an acoustic with
-  about as much road on it as he's got. Catch him at open mics and small rooms across
-  the Front Range.`,
+  with a bluegrass streak — telling stories in the tradition of writers like Todd Snider: 
+  wry, heartfelt, and meant to be heard up close. Most of it comes through a late-'70s 
+  Mossman Great Plains, an acoustic with about as much road on it as he's got. Catch 
+  him at open mics and small rooms across the Front Range.`,
 
   // Pull-quote shown under the bio in the About section.
   quote: { text: 'Success is just a mess of overdues.', author: 'John Hartford' },
