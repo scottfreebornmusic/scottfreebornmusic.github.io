@@ -17,7 +17,7 @@ export const site = {
   quote: { text: 'Success is just a mess of overdues.', author: 'John Hartford' },
 
   // Booking: until you set up Formspree, this email is the fallback.
-  bookingEmail: 'booking@scottfreeborn.com',
+  bookingEmail: 'sntypublicjams@gmail.com',
   // Make the form live: create a free form at formspree.io and paste its ID here (the part after /f/).
   formspreeId: 'xkolgypw',
 
