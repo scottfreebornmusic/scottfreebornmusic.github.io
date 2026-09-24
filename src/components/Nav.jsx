@@ -2,7 +2,6 @@ import { site } from '../data/site.js'
 
 const links = [
   { label: 'Shows', href: '#shows' },
-  { label: 'Listen', href: '#listen' },
   { label: 'About', href: '#about' },
   { label: 'Merch', href: '#merch' },
 ]
