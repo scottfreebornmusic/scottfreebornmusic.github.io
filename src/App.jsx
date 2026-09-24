@@ -4,7 +4,6 @@ import Hero from './components/Hero.jsx'
 import Divider from './components/Divider.jsx'
 import Shows from './components/Shows.jsx'
 import About from './components/About.jsx'
-import Booking from './components/Booking.jsx'
 import Merch from './components/Merch.jsx'
 import Footer from './components/Footer.jsx'
 
@@ -21,8 +20,6 @@ export default function App() {
         <About />
         <Divider />
         <Merch />
-        <Divider />
-        <Booking />
       </main>
       <Footer />
     </>

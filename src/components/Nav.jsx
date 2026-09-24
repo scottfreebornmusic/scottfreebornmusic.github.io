@@ -23,9 +23,6 @@ export default function Nav() {
             {l.label}
           </a>
         ))}
-        <a className="btn" href="#booking">
-          Book
-        </a>
       </nav>
     </header>
   )

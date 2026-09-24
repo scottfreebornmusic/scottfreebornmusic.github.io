@@ -21,9 +21,6 @@ export default function Hero() {
           <a className="btn" href="#listen">
             Listen
           </a>
-          <a className="btn btn--ghost" href="#booking">
-            Book a show
-          </a>
         </div>
       </div>
     </section>
